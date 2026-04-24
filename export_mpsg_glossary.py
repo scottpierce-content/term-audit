@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-Export MPSG A–Z term pages from the MicrosoftDocs/microsoft-style-guide repo.
-
-Outputs CSV with:
-letter, term_slug, learn_url, github_url, created_iso, created_utc, last_modified_iso, last_modified_utc
-
-Git dates use %cI (strict ISO 8601 committer date). 【1-6959dc】【2-d9ccf3】
-Optional rename following uses --follow (valid only for a single file, which is how we invoke it). 【3-4a5c43】
-"""
 
 import argparse
 import csv
